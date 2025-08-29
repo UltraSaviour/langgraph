@@ -1,0 +1,36 @@
+# LangGraph Customer Support Agent - Python Dependencies
+
+# Core LangGraph and LangChain dependencies
+langgraph>=0.0.20
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+
+# MCP (Model Context Protocol) support
+mcp>=1.0.0
+
+# Async support
+aiohttp>=3.9.0
+
+# Data handling
+pydantic>=2.0.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+requests>=2.31.0
+
+# Logging and monitoring
+colorlog>=6.7.0
+structlog>=23.2.0
+
+# Testing (optional, for development)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Type checking (optional, for development)
+mypy>=1.5.0
+types-PyYAML
+types-requests
